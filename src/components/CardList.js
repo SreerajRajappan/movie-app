@@ -16,18 +16,8 @@ const useStyles = makeStyles(theme => ({
     display: "flex"
   },
   cover: {
-    width: 151,
-    height: 151
-  },
-  controls: {
-    display: "flex",
-    alignItems: "center",
-    paddingLeft: theme.spacing(1),
-    paddingBottom: theme.spacing(1)
-  },
-  playIcon: {
-    height: 38,
-    width: 38
+    width: 175,
+    height: 175
   }
 }));
 

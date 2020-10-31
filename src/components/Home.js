@@ -1,9 +1,10 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import MovieSearchBar from "./MovieSearchBar";
-import CardList from "./CardList";
 
 import Page from "./Page";
+import Carousal from "./Carousal";
+import CardList from "./CardList";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         Search Movie
       </Typography>
       <MovieSearchBar />
+      <Carousal />
       <CardList />
     </Page>
   );
